@@ -13,7 +13,7 @@ import javax.swing.text.PlainDocument;
  */
 public class Temperature extends javax.swing.JFrame {
     private int xMouse, yMouse;
-    private final String error="Ingresó un valor no numérico. Inténtelo nuevamente.";
+    private final String error="IngresÃ³ un valor no numÃ©rico. IntÃ©ntelo nuevamente.";
     private javax.swing.JLabel backLabel;
     private javax.swing.JPanel bodyTempPanel;
     private javax.swing.JRadioButton btnC_F;
@@ -121,7 +121,7 @@ public class Temperature extends javax.swing.JFrame {
         backLabel.setFont(new java.awt.Font("Russo One", 0, 48));
         backLabel.setForeground(new java.awt.Color(153, 153, 153));
         backLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        backLabel.setText("«");
+        backLabel.setText("<");
         backLabel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         backLabel.addMouseListener(new java.awt.event.MouseAdapter() {
             @Override
@@ -173,7 +173,7 @@ public class Temperature extends javax.swing.JFrame {
         instructionLabel.setFont(new java.awt.Font("Russo One", 2, 18));
         instructionLabel.setForeground(new java.awt.Color(204, 153, 0));
         instructionLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        instructionLabel.setText("Coloque la cantidad y luego seleccione el tipo de conversión. ");
+        instructionLabel.setText("Coloque la cantidad y luego seleccione el tipo de conversiÃ³n. ");
         txtFieldTemp.setBackground(new java.awt.Color(57, 105, 138));
         txtFieldTemp.setFont(new java.awt.Font("Russo One", 0, 14));
         txtFieldTemp.setForeground(new java.awt.Color(40, 82, 113));
@@ -193,7 +193,7 @@ public class Temperature extends javax.swing.JFrame {
         labelOptionTemp.setFont(new java.awt.Font("Russo One", 2, 24));
         labelOptionTemp.setForeground(new java.awt.Color(204, 153, 0));
         labelOptionTemp.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        labelOptionTemp.setText("Tipo de conversión:");
+        labelOptionTemp.setText("Tipo de conversiÃ³n:");
         btnC_F.setBackground(new java.awt.Color(57, 105, 138));
         btnGroupTemp.add(btnC_F);
         btnC_F.setFont(new java.awt.Font("Russo One", 3, 16));
@@ -383,7 +383,6 @@ public class Temperature extends javax.swing.JFrame {
     private void backLabelMouseExited(java.awt.event.MouseEvent evt) {                                      
         backLabel.setForeground(new Color(153,153,153));
     }
-
     private void backLabelMouseClicked(java.awt.event.MouseEvent evt) {                                       
         var buttonMouse=evt.getButton();
         switch(buttonMouse){
@@ -409,7 +408,6 @@ public class Temperature extends javax.swing.JFrame {
             labelTitleResultTemp.setText("Respuesta:");
             labelTitleResultTemp.setForeground(new Color(204,153,0));
             return Float.parseFloat(inputValue);
-            
         }
         catch(NumberFormatException e){
             labelTitleResultTemp.setText("Error:");

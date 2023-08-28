@@ -2,7 +2,6 @@ package com.alura.coin_temperatureconverter.windows;
 import java.awt.Color;
 import java.awt.event.MouseEvent;
 import javax.swing.JFrame;
-
 /**
  *
  * @author Nahuel
@@ -112,7 +111,7 @@ public class ConverterWindow extends javax.swing.JFrame {
         labelTextOption.setFont(new java.awt.Font("Russo One", 2, 18));
         labelTextOption.setForeground(new java.awt.Color(204, 204, 204));
         labelTextOption.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        labelTextOption.setText("Por favor seleccione el tipo de conversor que desea ejecutar");
+        labelTextOption.setText("Por favor seleccione el tipo de conversor que desea ejecutar.");
         optionsOfConversor.setBackground(new java.awt.Color(57, 105, 138));
         optionsOfConversor.setFont(new java.awt.Font("Russo One", 2, 16));
         optionsOfConversor.setForeground(new java.awt.Color(255, 255, 255));
@@ -123,7 +122,7 @@ public class ConverterWindow extends javax.swing.JFrame {
         nextLabel.setFont(new java.awt.Font("Russo One", 1, 50));
         nextLabel.setForeground(new java.awt.Color(204, 153, 0));
         nextLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        nextLabel.setText("»");
+        nextLabel.setText(">");
         nextLabel.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
         nextLabel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         nextLabel.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
@@ -189,7 +188,6 @@ public class ConverterWindow extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(bodyConversorPanel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(

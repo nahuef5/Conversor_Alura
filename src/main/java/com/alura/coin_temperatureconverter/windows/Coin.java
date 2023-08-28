@@ -13,7 +13,7 @@ import javax.swing.text.PlainDocument;
  */
 public class Coin extends javax.swing.JFrame{
     private int xMouse,yMouse;
-    private final String error="Ingresó un valor no numérico. Inténtelo nuevamente.";
+    private final String error="IngresÃ³ un valor no numÃ©rico. IntÃ©ntelo nuevamente.";
     private javax.swing.JLabel backLabel;
     private javax.swing.JPanel bodyCoinPanel;
     private javax.swing.JRadioButton btnARS_EURO5;
@@ -120,14 +120,12 @@ public class Coin extends javax.swing.JFrame{
         titleCoin.setFont(new java.awt.Font("Russo One", 3, 48));
         titleCoin.setForeground(new java.awt.Color(204, 153, 0));
         titleCoin.setText("Moneda");
-
         separatorTitle.setBackground(new java.awt.Color(153, 153, 153));
         separatorTitle.setForeground(new java.awt.Color(153, 153, 153));
-
         backLabel.setFont(new java.awt.Font("Russo One", 0, 48));
         backLabel.setForeground(new java.awt.Color(153, 153, 153));
         backLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        backLabel.setText("«");
+        backLabel.setText("<");
         backLabel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         backLabel.addMouseListener(new java.awt.event.MouseAdapter() {
             @Override
@@ -172,9 +170,7 @@ public class Coin extends javax.swing.JFrame{
                 .addComponent(separatorTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
-
         bodyCoinPanel.setBackground(new java.awt.Color(57, 105, 138));
-
         labelOptionCoin5.setFont(new java.awt.Font("Russo One", 2, 24));
         labelOptionCoin5.setForeground(new java.awt.Color(204, 153, 0));
         labelOptionCoin5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -194,7 +190,7 @@ public class Coin extends javax.swing.JFrame{
         btnRadioCoin.add(btnARS_EURO5);
         btnARS_EURO5.setFont(new java.awt.Font("Russo One", 3, 16));
         btnARS_EURO5.setForeground(new java.awt.Color(204, 204, 204));
-        btnARS_EURO5.setText("AR$ - €uro");
+        btnARS_EURO5.setText("AR$ - â‚¬uro");
         btnARS_EURO5.setBorder(null);
         btnARS_EURO5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnARS_EURO5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -205,7 +201,7 @@ public class Coin extends javax.swing.JFrame{
         btnRadioCoin.add(btnARS_LIBRA5);
         btnARS_LIBRA5.setFont(new java.awt.Font("Russo One", 3, 16));
         btnARS_LIBRA5.setForeground(new java.awt.Color(204, 204, 204));
-        btnARS_LIBRA5.setText("AR$ - £ibra");
+        btnARS_LIBRA5.setText("AR$ - Â£ibra");
         btnARS_LIBRA5.setBorder(null);
         btnARS_LIBRA5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnARS_LIBRA5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -216,7 +212,7 @@ public class Coin extends javax.swing.JFrame{
         btnRadioCoin.add(btnARS_YEN5);
         btnARS_YEN5.setFont(new java.awt.Font("Russo One", 3, 16));
         btnARS_YEN5.setForeground(new java.awt.Color(204, 204, 204));
-        btnARS_YEN5.setText("AR$ - ¥en");
+        btnARS_YEN5.setText("AR$ - Â¥en");
         btnARS_YEN5.setBorder(null);
         btnARS_YEN5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnARS_YEN5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -238,7 +234,7 @@ public class Coin extends javax.swing.JFrame{
         btnRadioCoin.add(btnYEN_ARS5);
         btnYEN_ARS5.setFont(new java.awt.Font("Russo One", 3, 16));
         btnYEN_ARS5.setForeground(new java.awt.Color(204, 204, 204));
-        btnYEN_ARS5.setText("¥en - AR$");
+        btnYEN_ARS5.setText("Â¥en - AR$");
         btnYEN_ARS5.setBorder(null);
         btnYEN_ARS5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnYEN_ARS5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -259,7 +255,7 @@ public class Coin extends javax.swing.JFrame{
         btnRadioCoin.add(btnEURO_ARS5);
         btnEURO_ARS5.setFont(new java.awt.Font("Russo One", 3, 16));
         btnEURO_ARS5.setForeground(new java.awt.Color(204, 204, 204));
-        btnEURO_ARS5.setText("€uro - AR$");
+        btnEURO_ARS5.setText("â‚¬uro - AR$");
         btnEURO_ARS5.setBorder(null);
         btnEURO_ARS5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnEURO_ARS5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
@@ -270,7 +266,7 @@ public class Coin extends javax.swing.JFrame{
         btnRadioCoin.add(btnLibra_ARS5);
         btnLibra_ARS5.setFont(new java.awt.Font("Russo One", 3, 16));
         btnLibra_ARS5.setForeground(new java.awt.Color(204, 204, 204));
-        btnLibra_ARS5.setText("£ibra - AR$");
+        btnLibra_ARS5.setText("Â£ibra - AR$");
         btnLibra_ARS5.setBorder(null);
         btnLibra_ARS5.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnLibra_ARS5.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
