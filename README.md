@@ -4,7 +4,7 @@
 ### ¡Les doy la bienvenida!
 ### Proyecto solución del desafío "Challenge ONE Back End - Java" Conversor de Moneda y Temperatura con Java.
 
-####  [Página del desafío](https://www.aluracursos.com/challenges/oracle-one-back-end/conversordemoneda) 📃
+####  [Página del desafío](https://www.aluracursos.com/challenges/oracle-one-back-end/conversordemoneda) 
 
 ## Contenido de este repositório
 ---
