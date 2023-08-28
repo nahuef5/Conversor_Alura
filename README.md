@@ -6,6 +6,8 @@
 
 ####  [Página del desafío](https://www.aluracursos.com/challenges/oracle-one-back-end/conversordemoneda) 
 
+####  [Como funciona el conversor](https://www.youtube.com/watch?v=JQWKy7Mek0E) 
+
 ## Contenido de este repositório
 ---
 Código con la solución al desafío del conversor de monedas y temperatura.
@@ -20,3 +22,4 @@ Además, las tres ventanas cuentan con botones (implementados con JLabel) para c
 Las tres ventanas no pueden ser ampliadas y se pueden reposicionar en la pantalla según sea necesario.
 
 Por ultimo, el programa cuenta con una clase que contiene métodos estáticos que son los encargados de realizar las operaciones de conversión.
+
