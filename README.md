@@ -8,6 +8,12 @@
 
 ####  [Como funciona el conversor](https://www.youtube.com/watch?v=JQWKy7Mek0E) 
 
+## 🖥️ Tecnologías Utilizadas:
+
+- Java
+- Netbeans
+- </br>
+
 ## Contenido de este repositório
 ---
 Código con la solución al desafío del conversor de monedas y temperatura.
